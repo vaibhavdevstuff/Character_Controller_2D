@@ -1,0 +1,24 @@
+This is a basic character controller script for unity2D
+
+this script contain basic properties of a platformer character which are - 
+
+               character movement
+               basic jump
+               double jump
+               wall jump
+               wall sliding
+               gravity control (for better jumping)
+               collision detection (for ground and wall detection)
+               friction control
+               
+Components required for script
+
+               ground detector (transform)
+               wall detector (transform)
+               physicsMaterial2D (friction)
+               animator (animation)
+               ground layer (to detect ground)
+               wall layer (optional - if want particular wall for wall climbing else can use ground layer)
+               modifires-
+                              slide modifire (for smooth velocity at X axis during jump)
+                              gravity modifire (to control low and high jump gravity)
